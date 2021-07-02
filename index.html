@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+        <link rel="stylesheet" href="./style.css" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Tap Music</title>
+    </head>
+    <body>
+        <section class="app">
+            <header>
+                <h1>Sound Pads</h1>
+                <p>Tap/Click on the buttons below.</p>
+            </header>
+            <div class="pads">
+                <div class="line">
+                    <div class="kick">
+                        <h3>Kick</h3>
+                        <audio src="./sounds/kick.wav" class="sound"></audio>
+                    </div>
+                    <div class="_808">
+                        <h3>808</h3>
+                        <audio src="./sounds/808.wav" class="sound"></audio>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="snare">
+                        <h3>Snare</h3>
+                        <audio class="sound">
+                            <source src="./sounds/snare.wav" />
+                        </audio>
+                    </div>
+                    <div class="hat">
+                        <h3>Hat</h3>
+                        <audio class="sound">
+                            <source src="./sounds/hat.wav" />
+                        </audio>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="synth1">
+                        <h3>Synth1</h3>
+                        <audio class="sound">
+                            <source src="./sounds/synth1.wav" />
+                        </audio>
+                    </div>
+                    <div class="synth2">
+                        <h3>Synth2</h3>
+                        <audio class="sound">
+                            <source src="./sounds/synth2.wav" />
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
